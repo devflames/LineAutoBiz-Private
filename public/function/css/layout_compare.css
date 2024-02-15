@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******************************************
+	SITE:  AutoBiz Voice
+	FileName: leyout.css
+	LastUpdate: 2015/10/05
+********************************************/
+
+
+
+.leadTxt a.gLine:link,
+.leadTxt a.gLine:visited{
+  color:#3ba600;
+  text-decoration:underline;
+  font-size:16px;
+  font-weight:normal;
+  display:inline-block;
+   background:url(../../common/images/icn_fw.png) no-repeat right center;
+   line-height:1.3;
+   padding:0 15px 0 0;
+   margin:0;
+}
+
+.leadTxt a.gLine:hover{
+  color:#333333;
+  text-decoration:none;
+  font-size:16px;
+  font-weight:normal;
+}
+
+/*------------------------------------------------------------
+	list
+------------------------------------*/
+
+
+.color_bg{
+	background-color:#f2f1ec;
+	}
+
+.list_bg{background-image:url(../images/list_bg.gif);}
+.customer_bg{background-image:url(../images/customer_bg.gif);}
+.form_bg{background-image:url(../images/form_bg.gif);}
+.form_detail_bg{background-image:url(../images/form_detail_bg.gif);}
+.mail_bg{background-image:url(../images/mail_bg.gif);}
+.mail_detail_bg{background-image:url(../images/mail_detail_bg.gif);}
+.other_bg{background-image:url(../images/other_bg.gif);}
+
+
+/*------------------------------------------------------------
+	detail
+------------------------------------*/
+
+
+.list_bg{
+  background-image:url(../images/list_bg.gif);
+	}
+	
+
+/*------------------------------------------------------------
+	list
+------------------------------------*/
+
+.listConts{
+	padding:40px 3%;
+	}
+
+dl.list_Box{
+	padding:15px 0;
+	}
+
+.list_Box dt{
+	width:100%;
+	color:#2774dd;
+	margin:0 3% 0 0;
+	float:none;
+	}
+
+.list_Box dd{
+	width:100%;
+	float:left;
+	float:none;
+	}
+	
+
+
+/*------------------------------------------------------------
+	point
+------------------------------------*/
+
+.point{
+	width:94%;
+    margin:0 3% 5px 3%;
+	}
+}
+
+.list_bg{
+  background-image:url(../images/list_bg.gif);
+	}
+
+
+
+
+}
+
+
+
+
+
+

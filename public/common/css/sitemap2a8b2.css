@@ -1,0 +1,124 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*******************************************
+	SITE:  AutoBiz Sitemap
+	FileName: sitemap.css
+	LastUpdate: 2016/4/20
+********************************************/
+
+
+.heroArea2{
+  background-color:#2774dd;
+}
+.heroArea2 .heroAreaIn{
+  width:1008px;
+  margin:0 auto;
+  height:72px;
+}
+
+.heroArea2 .contArea{
+  padding:0;
+  width:1008px;
+  margin:0 auto;
+  text-align:left;
+}
+
+.heroArea2 h1{
+  color:#ffffff;
+  font-size:40px;
+  line-height:1.3;
+  margin-bottom:35px;
+  padding-top:100px;
+   font-weight:700;
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.heroArea2 h1 em{
+  font-size:20px;
+  display:block;
+  font-weight:normal;
+}
+
+/*---------------------------*/
+.contsIn .sitemapMenu1,
+.contsIn .sitemapMenu2{
+  float:left;
+  width:316px;
+  margin:0 30px 0 0;
+}
+
+.contsIn .sitemapMenu3{
+  float:left;
+}
+
+.contsIn ul > li{
+  text-align:left;
+  margin-bottom:5px;
+}
+.contsIn ul > li a{
+  color:#3ba600;
+  background:url(../images/icn_fw.png) no-repeat 0px 5px;
+  padding-left:20px;
+  display:block;
+}
+
+
+.contsIn ul > li ol{
+  margin-left:30px;
+}
+
+
+@media (max-width:800px){
+	
+.heroArea2 .heroAreaIn{
+  width:100%;
+  height:0px;
+}
+
+.heroArea2 h1{
+  font-size:40px;
+  margin-bottom:25px;
+  margin-left:3%;
+  padding-top:0px;
+}
+
+ .heroArea2 .contArea{
+  padding:0px 0 0 0;
+  width:100%;
+  margin:0;
+  text-align:left;
+}
+
+
+
+
+}
+
+
+@media (max-width: 480px) {
+	
+.heroAreaIn{
+  background-position:100% bottom;
+  background-size:80% auto;
+}
+
+
+.heroArea2 .contArea{
+  width:100%;
+  margin:0;
+  text-align:left;
+}
+
+.heroArea2 h1{
+  font-size:32px;
+  margin-bottom:10px;
+  margin-left:3%;
+  padding-top:10px
+}
+
+
+}
+
+
+

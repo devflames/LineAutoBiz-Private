@@ -1,0 +1,514 @@
+/* CSS Document */
+/*******************************************
+	SITE:  AutoBiz About
+	FileName: leyout.css
+	LastUpdate: 2016/04/06
+********************************************/
+.heroAreaIn {
+
+}
+.contsDtl .pBox_bg {
+	background-image: url(../images/check_bg.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0 0 0 -40px;
+}
+.leadTxt .fl_area {
+	width: 100%;
+}
+.leadTxt .fl_area p {
+	width: 755px;
+	float: left;
+}
+.leadTxt .fl_area img {
+	width: 215px;
+	float: right;
+}
+.gray_area {
+	background: #f2f1ec;
+	width: 100%;
+	padding: 50px 0;
+}
+.gray_area + .point {
+	margin-top: 60px;
+}
+.gray_area > .inner {
+	width: 1008px;
+	margin: 0 auto;
+}
+.gray_area > .inner ul.function {
+	width: 100%;
+	font-size: 0;
+}
+.gray_area > .inner ul.function li {
+	width: 336px;
+	width: calc(100% / 3);
+	display: inline-block;
+	border-right: 1px solid #dfded7;
+	padding: 5px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gray_area > .inner ul.function li:first-child {
+	border-left: 1px solid #dfded7;
+}
+.gray_area > .inner ul.function li:first-child .func_block div img {
+	margin-top: 8px;
+}
+.gray_area > .inner ul.function li:last-child {
+	border-left: 1px solid #dfded7;
+}
+.gray_area > .inner ul.function li:last-child .func_block div img {
+	margin-top: 15px;
+}
+.gray_area > .inner ul.function li .func_block {
+	width: 280px;
+	margin: 0 auto;
+	display: block;
+}
+.gray_area > .inner ul.function li .func_block h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.gray_area > .inner ul.function li .func_block h3 span.blue {
+	color: #2774dd;
+}
+.gray_area > .inner ul.function li .func_block h3 span.s {
+	font-size: 12px;
+}
+.gray_area > .inner ul.function li .func_block dl {
+	width: 100%;
+	margin-top: 25px;
+	text-align: left;
+}
+.gray_area > .inner ul.function li .func_block dl dt {
+	font-size: 14px;
+	font-weight: bold;
+	color: #2774dd;
+}
+.gray_area > .inner ul.function li .func_block dl dd {
+	font-size: 14px;
+}
+.gray_area > .inner ul.can {
+	width: 100%;
+	font-size: 0;
+}
+.gray_area > .inner ul.can li {
+	width: 336px;
+	width: calc(100% / 3);
+	display: inline-block;
+	border-right: 1px solid #dfded7;
+	padding: 6px 0 8px;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gray_area > .inner ul.can li:first-child {
+	border-left: 1px solid #dfded7;
+}
+.gray_area > .inner ul.can li:first-child .can_block div img {
+	margin-top: 32px;
+}
+.gray_area > .inner ul.can li .can_block {
+	width: 284px;
+	margin: 0 auto;
+	display: block;
+}
+.gray_area > .inner ul.can li .can_block h3 {
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+	background: #2774dd;
+	color: #fff;
+	width: 100%;
+	border-radius: 5px;
+}
+.gray_area > .inner ul.can li .can_block p {
+	font-size: 16px;
+	text-align: left;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+.gray_area > .inner ul.can li .can_block p:first-of-type {
+	margin-top: 20px;
+}
+.gray_area > .inner ul.can li .can_block p:last-of-type {
+	margin-bottom: 0;
+}
+.gray_area .glink {
+	color: #3ba600;
+	text-decoration: underline;
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+	background: url(../../common/images/icn_fw.png) no-repeat right center;
+	line-height: 1.3;
+	padding: 0 15px 0 0;
+	margin: 0;
+}
+.gray_area .glink:hover {
+	color: #333333;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: normal;
+}
+p.example {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+	text-align: center;
+}
+p.example a {
+	color: #3ba600;
+	text-decoration: underline;
+}
+p.example a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+@media (max-width: 800px) {
+.heroAreaIn {
+	width: 100%;
+	min-height: 0px;
+}
+.point {
+	width: 94%;
+	margin: 0 3% 5px 3%;
+}
+.leadTxt .fl_area {
+	width: 100%;
+}
+.leadTxt .fl_area p {
+	width: 65%;
+	float: left;
+}
+.leadTxt .fl_area img {
+	width: 30%;
+	float: right;
+}
+.gray_area {
+	background: #f2f1ec;
+	width: 100%;
+	padding: 30px 0;
+}
+.gray_area + .point {
+	margin-top: 40px;
+}
+.gray_area > .inner {
+	width: 95%;
+	margin: 0 auto;
+}
+.gray_area > .inner ul.function {
+	width: 100%;
+	font-size: 0;
+}
+.gray_area > .inner ul.function li {
+	width: 100%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #dfded7;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gray_area > .inner ul.function li:first-child {
+	border-left: none;
+}
+.gray_area > .inner ul.function li:first-child .func_block div img {
+	margin-top: 0px;
+}
+.gray_area > .inner ul.function li:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+}
+.gray_area > .inner ul.function li:last-child .func_block div img {
+	margin-top: 0px;
+}
+.gray_area > .inner ul.function li .func_block {
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+}
+.gray_area > .inner ul.function li .func_block h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	text-align: left;
+}
+.gray_area > .inner ul.function li .func_block h3 span.blue {
+	color: #2774dd;
+}
+.gray_area > .inner ul.function li .func_block h3 span.s {
+	font-size: 12px;
+}
+.gray_area > .inner ul.function li .func_block div img {
+	width: auto;
+}
+.gray_area > .inner ul.function li .func_block dl {
+	width: 100%;
+	margin-top: 20px;
+	text-align: left;
+}
+.gray_area > .inner ul.function li .func_block dl dt {
+	font-size: 14px;
+	font-weight: bold;
+	color: #2774dd;
+}
+.gray_area > .inner ul.function li .func_block dl dd {
+	font-size: 14px;
+}
+.gray_area > .inner ul.can {
+	width: 100%;
+	font-size: 0;
+}
+.gray_area > .inner ul.can li {
+	width: 100%;
+	display: block;
+	padding: 6px 0 8px;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #dfded7;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gray_area > .inner ul.can li:first-child {
+	border-left: none;
+}
+.gray_area > .inner ul.can li:first-child .can_block div img {
+	margin-top: 0px;
+}
+.gray_area > .inner ul.can li:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+}
+.gray_area > .inner ul.can li .can_block {
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+}
+.gray_area > .inner ul.can li .can_block h3 {
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+	background: #2774dd;
+	color: #fff;
+	width: 100%;
+	border-radius: 5px;
+}
+.gray_area > .inner ul.can li .can_block div img {
+	width: auto;
+}
+.gray_area > .inner ul.can li .can_block p {
+	font-size: 16px;
+	text-align: left;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+.gray_area > .inner ul.can li .can_block p:first-of-type {
+	margin-top: 20px;
+}
+.gray_area > .inner ul.can li .can_block p:last-of-type {
+	margin-bottom: 0;
+}
+p.example {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto 0;
+}
+p.example a {
+	color: #3ba600;
+	text-decoration: underline;
+}
+p.example a:hover {
+	text-decoration: none;
+	color: #333;
+}
+}
+
+@media (max-width: 560px) {
+.heroAreaIn {
+	height: 0px;
+}
+.leadTxt .fl_area {
+	width: 100%;
+}
+.leadTxt .fl_area p {
+	width: 100%;
+	float: none;
+	margin-bottom: 5%;
+}
+.leadTxt .fl_area img {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	float: none;
+	max-width: 215px;
+}
+.gray_area {
+	background: #f2f1ec;
+	width: 100%;
+	padding: 30px 0;
+}
+.gray_area + .point {
+	margin-top: 30px;
+}
+.gray_area > .inner {
+	width: 95%;
+	margin: 0 auto;
+}
+.gray_area > .inner ul.function {
+	width: 100%;
+	font-size: 0;
+}
+.gray_area > .inner ul.function li {
+	width: 100%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #dfded7;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gray_area > .inner ul.function li:first-child {
+	border-left: none;
+}
+.gray_area > .inner ul.function li:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+}
+.gray_area > .inner ul.function li .func_block {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.gray_area > .inner ul.function li .func_block h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	text-align: left;
+}
+.gray_area > .inner ul.function li .func_block h3 span.blue {
+	color: #2774dd;
+}
+.gray_area > .inner ul.function li .func_block h3 span.s {
+	font-size: 12px;
+}
+.gray_area > .inner ul.function li .func_block div img {
+	max-width: 280px;
+	width: 90%;
+}
+.gray_area > .inner ul.function li .func_block dl {
+	width: 100%;
+	margin-top: 15px;
+	text-align: left;
+}
+.gray_area > .inner ul.function li .func_block dl dt {
+	font-size: 14px;
+	font-weight: bold;
+	color: #2774dd;
+}
+.gray_area > .inner ul.function li .func_block dl dd {
+	font-size: 14px;
+}
+.gray_area > .inner ul.can {
+	width: 100%;
+	font-size: 0;
+}
+.gray_area > .inner ul.can li {
+	width: 100%;
+	display: block;
+	padding: 6px 0 8px;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #dfded7;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gray_area > .inner ul.can li:first-child {
+	border-left: none;
+}
+.gray_area > .inner ul.can li:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+}
+.gray_area > .inner ul.can li .can_block {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.gray_area > .inner ul.can li .can_block h3 {
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+	background: #2774dd;
+	color: #fff;
+	width: 100%;
+	border-radius: 5px;
+}
+.gray_area > .inner ul.can li .can_block div img {
+	width: auto;
+}
+.gray_area > .inner ul.can li .can_block p {
+	font-size: 16px;
+	text-align: left;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+.gray_area > .inner ul.can li .can_block p:first-of-type {
+	margin-top: 20px;
+}
+.gray_area > .inner ul.can li .can_block p:last-of-type {
+	margin-bottom: 0;
+}
+}
+
+/*# sourceMappingURL=layout.css.map */

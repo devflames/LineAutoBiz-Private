@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******************************************
+	SITE:  AutoBiz Voice
+	FileName: leyout.css
+	LastUpdate: 2015/10/05
+********************************************/
+
+
+/*------------------------------------------------------------
+	list
+------------------------------------*/
+
+
+.color_bg{
+	background-color:#f2f1ec;
+	}
+
+.list_bg{background-image:url(../../function/images/list_bg.gif);}
+.customer_bg{background-image:url(../../function/images/customer_bg.gif);}
+.form_bg{background-image:url(../../function/images/form_bg.gif);}
+.form_detail_bg{background-image:url(../../function/images/form_detail_bg.gif);}
+.mail_bg{background-image:url(../../function/images/mail_bg.gif);}
+.mail_detail_bg{background-image:url(../../function/images/mail_detail_bg.gif);}
+.other_bg{background-image:url(../../function/images/other_bg.gif);}
+
+
+/*------------------------------------------------------------
+	detail
+------------------------------------*/
+
+
+.list_bg{
+  background-image:url(../../function/images/list_bg.gif);
+	}
+	
+
+/*------------------------------------------------------------
+	list
+------------------------------------*/
+
+.listConts{
+	padding:40px 3%;
+	}
+
+dl.list_Box{
+	padding:15px 0;
+	}
+
+.list_Box dt{
+	width:100%;
+	color:#2774dd;
+	margin:0 3% 0 0;
+	float:none;
+	}
+
+.list_Box dd{
+	width:100%;
+	float:left;
+	float:none;
+	}
+	
+
+
+/*------------------------------------------------------------
+	point
+------------------------------------*/
+
+.point{
+	width:94%;
+	margin:0 3% 5px 3%;
+	}
+
+
+.list_bg{
+	background-image:url(../../function/images/list_bg.gif);
+	}
+
+
+
+/*------------------------------------------------------------
+	allFunc
+------------------------------------*/
+.allFunc table {
+	width:100%;
+}
+
+.allFunc table,td,th,tr {
+	margin:auto;
+	padding:20px 10px;
+	border:#D8D8D8 1px solid;
+	font-size:14px;
+	font-weight:500;
+	}
+	
+.allFunc .kinou{
+	width:200px;
+	background-color:#666;
+	color:#fff;
+	font-size:16px;
+	font:bold;
+}
+
+.allFunc .abtitle{
+	width:400px;
+	background-color:#00AFCE;
+	color:#fff;
+	font-size:16px;
+	font:bold;
+}
+
+.allFunc .psmtitle{
+	width:400px;
+	background-color:#2774DD;
+	color:#fff;
+	font-size:16px;
+	font:bold;
+}
+
+.allFunc .note{
+	font-size:13px;
+}
+
+.allFunc tr:nth-child(odd){
+	background-color:#EDEDED;
+}
+
+.allFunc .funcTbl{
+	margin-bottom:50px;
+}
+
+
+
+

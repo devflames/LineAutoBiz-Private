@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******************************************
+	SITE:  AutoBiz Voice
+	FileName: leyout.css
+	LastUpdate: 2015/10/05
+********************************************/
+
+
+/*
+.header .gNav .contArea li.funct.on .secNav{
+  display:block !important;
+}
+*/
+
+/*------------------------------------------------------------
+	mv
+------------------------------------*/
+.header .gNav .contArea li .secNav li.on {
+	background-color: #ffffff;
+}
+
+.heroArea2 {
+	background-color: #2774dd;
+}
+
+.heroArea2 .heroAreaIn {
+	width: 1008px;
+	margin: 0 auto;
+	height: 72px;
+}
+
+
+.heroArea2 .contArea {
+	padding: 0;
+	width: 1008px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+.heroArea2 h1 {
+	color: #ffffff;
+	font-size: 40px;
+	line-height: 1.3;
+	margin-bottom: 35px;
+	padding-top: 100px;
+	font-weight: 700;
+	font-family: 'Noto Sans JP', serif;
+}
+
+.heroArea2 h1 em {
+	font-size: 20px;
+	display: block;
+	font-weight: normal;
+}
+
+/*------------------------------------------------------------
+	list
+------------------------------------*/
+
+
+/*-------------------------------------------------
+biz
+----------------------*/
+
+.biz .leadTxt {
+	text-align: center;
+}
+
+.biz .leadTxt h2 {
+	font-size: 34px;
+	line-height: 1.3;
+	padding-bottom: 10px;
+}
+
+.biz .leadTxt .bold li {
+	width: 27%;
+	margin: 0 3%;
+	float: left;
+	display: block;
+	text-align: center;
+	text-indent: 0 !important;
+}
+
+.biz .leadTxt .bold li span {
+	display: block;
+	font-size: 18px;
+	line-height: 1.2;
+	padding: 10px 0;
+}
+
+.biz .leadTxt .bold li img {
+	width: 100%;
+	max-width: 202px;
+	height: auto;
+}
+
+
+/*---------------*/
+
+
+.color_bg {
+	background-color: #f2f1ec;
+	padding: 40px 0;
+	margin: 40px 0;
+}
+
+.contsBox {
+	padding: 25px 0;
+	overflow: hidden;
+}
+
+.contsBoxIn {
+	width: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: #000;
+	line-height: 1.6;
+}
+
+.contsBoxIn p {
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 15px;
+}
+
+.contsBoxIn a.gLine:link,
+.contsBoxIn a.gLine:visited {
+	color: #3ba600;
+	text-decoration: underline;
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+	background: url(../../common/images/icn_fw.png) no-repeat right center;
+	line-height: 1.3;
+	padding: 0 15px 0 0;
+	margin: 0;
+}
+
+.contsBoxIn a.gLine:hover {
+	color: #333333;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+
+.contsBoxIn ul.payment {
+	color: #2674DD;
+	font-size: 120%;
+	margin-top: 10px;
+}
+
+.contsBoxIn ul.kome {
+	font-size: 80%;
+	margin-top: 10px;
+}
+
+.contsBoxIn .txt_blue {
+	color: #2674DD;
+}
+
+.contsBoxIn .big {
+	font-size: 120%;
+}
+
+.borderBox {
+	padding: 20px;
+	border: 1px solid #e5e3db;
+	background-color: #fff;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+.borderBox p {
+	padding: 8px 0;
+}
+
+
+.kumiawase {
+	padding: 20px 0;
+}
+
+.kumiawase .bold {
+	font-size: 20px;
+}
+
+.kumiawase ul li {
+	width: 250px;
+	margin: 0 20px;
+	float: left;
+	text-align: center;
+}
+
+.kumiawase ul li span {
+	display: block;
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+.kumiawase ul li img {
+	width: 100%;
+	height: auto;
+	max-width: 172px;
+}
+
+.paperGreen {
+	padding: 20px;
+	background: url(../images/paper.gif) #00afcd no-repeat right top;
+	margin-bottom: 40px;
+}
+
+.paperGreen h3 {
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+.paperGreen ul.dot li {
+	font-size: 20px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 1.4;
+}
+
+.paperGreen ul.kome li {
+	font-size: 14px;
+	font-weight: normal;
+	color: #eee;
+	line-height: 1.3;
+}
+
+.paperGray {
+	padding: 20px;
+	background: url(../images/paper2.gif) #777 no-repeat right top;
+}
+
+.paperGray h3 {
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+.paperGray ul.dot li {
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 1.4;
+}
+
+.paperGray ul.kome li {
+	font-size: 14px;
+	font-weight: normal;
+	color: #eee;
+	line-height: 1.2;
+}
+
+/*------------------------------------------------------------
+	contact
+------------------------------------*/
+
+.contactArea {
+	clear: both;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.contactArea .contactResi dt {
+	margin-bottom: 10px;
+}
+
+.contactArea .contactResi {
+	margin-bottom: 30px;
+}
+
+.regiBtn span {
+	display: inline-block;
+	background-image: url(../../common/images/icn_memo.gif);
+	background-repeat: no-repeat;
+	background-position: 1% center;
+	min-height: 50px;
+	min-width: 500px;
+	font-size: 20px;
+}
+
+
+
+
+/*------------------------------------------------------------
+	table
+------------------------------------*/
+table {
+	border-collapse: collapse;
+	float: left;
+	margin-right: 20px;
+}
+
+table tr th {
+	padding: 5px 30px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+table tr th.ttl {
+	background-color: #1695D3;
+	color: #fff;
+}
+
+table tr td {
+	padding: 5px 20px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+
+table tr .bgBlue {
+	background-color: #F2F1EC;
+}
+
+/*------------------------------------------------------------
+	flow
+------------------------------------*/
+dl.flow {
+	display: table;
+	margin-bottom: 15px;
+}
+
+dl.flow dd {
+	display: table-cell;
+	padding: 0 0 0 30px;
+	font-size: 22px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+
+dl.flow dd span.kome {
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+
+
+dl.flow em>span {
+	display: table-cell;
+	line-height: 50px;
+	background-color: #2774dd;
+	font-size: 20px;
+	font-weight: normal;
+	color: #ffffff;
+	padding: 0 18px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	vertical-align: middle;
+}
+
+
+/*------------------------------------------------------------
+	kiyaku
+------------------------------------*/
+.kiyaku,
+.privacy {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.kiyaku iframe,
+.privacy iframe {
+	border: 1px solid #ddd;
+	padding: 10px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.checkBox {
+	margin-top: 20px;
+	border: none;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+table.checkBox tr,
+table.checkBox td {
+	vertical-align: middle;
+	border: none;
+	text-align: left;
+	padding: 10px 5px 10px 0;
+}
+
+.btnArea {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.sslSeal img {
+	width: 115px;
+}
+
+
+@media (max-width:800px) {
+	.heroArea2 .heroAreaIn {
+		width: 100%;
+		height: 0px;
+	}
+
+	.heroArea2 h1 {
+		font-size: 36px;
+		margin-bottom: 25px;
+		margin-left: 3%;
+		padding-top: 0px;
+	}
+
+	.heroArea2 .contArea {
+		padding: 0px 0 0 0;
+		width: 100%;
+		margin: 0;
+		text-align: left;
+	}
+
+
+	.conts_bg {
+		width: 94%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contsBoxIn {
+		width: 100%;
+	}
+
+	.regiBtn {
+		width: 90%;
+	}
+
+	.regiBtn .spBr {
+		display: inline;
+	}
+
+	.regiBtn span {
+		min-width: 100%;
+		width: 100%;
+		background-size: 6%;
+		text-align: left;
+		padding-left: 8%;
+		font-size: 18px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	ul.dot {
+		text-indent: -1em;
+		padding-left: 1em;
+	}
+
+
+	/*------------------------------------------------------------
+	table
+------------------------------------*/
+	table {
+		float: none;
+		margin-right: 0px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	table tr th {
+		padding: 5px;
+		text-align: center;
+		border: 1px solid #ddd;
+	}
+
+	table tr th.ttl {
+		background-color: #1695D3;
+		color: #fff;
+	}
+
+	table tr td {
+		padding: 5px;
+		text-align: center;
+		border: 1px solid #ddd;
+	}
+
+
+	table tr .bgBlue {
+		background-color: #F2F1EC;
+	}
+
+	/*------------------------------------------------------------
+	btn
+------------------------------------*/
+	.btnArea {
+		margin-top: 40px;
+		text-align: center;
+		width: 100%;
+	}
+
+
+
+	.btnArea input {
+		width: 80%;
+		margin: auto;
+	}
+
+
+
+}
+
+@media (max-width: 620px) {
+
+
+	.biz .leadTxt .bold li span {
+		font-size: 14px;
+		text-align: left;
+	}
+
+	.kumiawase ul li {
+		width: 46%;
+		margin: 0 2%;
+	}
+
+	.kumiawase ul li span {
+		font-size: 12px;
+	}
+}
+
+
+@media (max-width: 480px) {
+	.heroAreaIn {
+		background-position: 100% bottom;
+		background-size: 80% auto;
+	}
+
+
+	.heroArea2 .contArea {
+		width: 100%;
+		margin: 0;
+		text-align: left;
+	}
+
+	.heroArea2 h1 {
+		font-size: 28px;
+		margin-bottom: 10px;
+		margin-left: 3%;
+		padding-top: 10px
+	}
+
+	.regiBtn {
+		width: 90%;
+		line-height: 1.2;
+		padding: 5px 0 5px;
+	}
+
+	.regiBtn .spBr {
+		display: block;
+	}
+
+	.regiBtn span {
+		width: 100%;
+		background-position: 5% 25%;
+		background-size: 8%;
+		text-align: left;
+		padding-left: 15%;
+		margin-top: 10px;
+	}
+
+	.btnArea input {
+		width: 100%;
+	}
+
+
+}

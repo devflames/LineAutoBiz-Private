@@ -1,0 +1,160 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*******************************************
+	SITE:  AutoBiz Faq
+	FileName: leyout.css
+	LastUpdate: 2015/10/05
+********************************************/
+
+
+.heroAreaIn{
+  background-image:url(../images/hero_bg.jpg);
+}
+
+
+.aBox a{
+	color:#3ba600;
+	
+	}
+
+.qaList{
+	width:100%;
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+.qaList h3{
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	background-color: #2774dd;
+	text-align: center;
+	color:#fff;
+	font-size: 20px;
+	/*font-weight: normal;*/
+	padding: 15px 10px;
+	margin-top: 15px;
+	font-weight:500;
+  font-family: 'Noto Sans Japanese', sans-serif;
+	font-feature-settings: "palt";
+}
+
+.qabox{
+	background:#f2f1ec;
+	border-bottom:1px solid #fff;
+	text-align: left;
+	padding: 0 12px 12px 12px;
+	cursor:pointer;
+}
+
+.qabox .qatitle{
+	padding: 17px 10px 5px 30px;
+	display: block;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAttJREFUeNrcmj1MFFEUhe9OCAWuZguxgKigiUQazQqFJZjQkZiYdUFNiJ00WlmZWGisaKQRaQwhERVjo52FlBSuf426GgE1WqCJxBCKLRbPZe7TF8PAzOybnzcn+RI2ZPaes+/NvJ95ubZjC2RIe0Ef6AFdoAPsBjtADqyCn2AJVEEFzIGvJornGgyyD4yAIdAd8jvegvtgGnyOO8gRcAWcAo6hFq2DR+AGeBP04qAm9oAp8AqUDIZQXkry3VNSK5IgJenbI9Lno1JOalSlprEgzeAWmAUFik8FqTkhHhoKkgdPwCglpwviIR82SAt4CgYoeQ2Il5agQZrlVzhO6RF7eezVzbyC3AT9lD6dAON+g5QTvif83DND2wVpA7cp/ZoQr55BxmJ+xDbyaB7zClIEw2SPhsXzhpq0f1yNYsT+Vun8+3d7z6LpGQB7Pqm3yH4wSPaJPXfqQc4ZngDGJfZ8Xg9yluxVWQXhld1hi4McAgeclI7gQdXnyBrbdh11pGlsVxcHOZiBIBv3SGsGghR4ZN/V6Iht+poQM4CdDmVEHOR3BnKsctf6EaZ7+W3+CCeNun5xi3zKQIsscJAPGQhS5SCVDAR5zUGeZSDIHAfh9xPvLA7xUd0jrLsWB3mgL6w4SN3CEOz5jh5kidwtUtvEnhfpv3X6dbBuUQj2ek190LeDXoB74IzJahGO5uz1pT7X0nUZrFjQGivilbyCfKd0b2ArjYpXzyAsflWc5o3sSfFI2wVhXUrpiM+eLnqtRzZTjdztyPkUhZgXT7UgQVhr9O/dXdJS7zLXtlohbrnykl9hMuF7YlC8UNggqpvx667TMT+auVZZatf8rNn96iG5p36mI54BrEsNrjUbZPMhiJbJPV5RlGAmJ5p1+c6i1FgOcnFT2BWZdDV1zIlfg4Xd0X8PZiihY06biUPxwbNecveTO8g9eJbXHhzq4BnvEzwn9+DZFxPF/wgwAJHZjCVtx8vxAAAAAElFTkSuQmCC") no-repeat left 15px;
+	background-size: 20px 20px;
+	font-size: 18px;
+	line-height: 1.2;
+	list-style: none;
+}
+
+.qabox[open] .qatitle{
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAsVJREFUeNrcmjtMFFEUhs9OCAWuZguxwKCgCQQbzYoFJZrQUZl1IZoQO2mgojKhwFjRaAPSGEICKsZGOwspKVxfjboaeWigABMJIRRbLP7HOTdOYAf2zs7rzp98283c8+3cedxHqunyEvmUZtANOkE7aAEnwTGQAjvgN1gBRVAAC+CXH42nahQ5AwZAH7jg8RyfwVMwA1bDFrkI7oLrwPLpipbBC3AffNI9WLeIU2AafAA5HyVULTk597S0FYhITvr2gPT5oJKSNorSpm8i9WACzIMMhZeMtDkpNdQkkgavwCBFlztSQ9qrSAN4DXoo+vRILQ26IvXyL3RRfMK1vHTrZm4iD8BVil+ugYfViuQjviequWf6jhJpAo8o/pmUWl1FxkN+xNbyaB53E8mCfjIn/VLzAZHRgN/YQXwBjO4XOQt6ybxwza1OkVs+fwCGFa75tlPkJpmbvBLhkV2HwSJt4JwV0ze4brotGWObnkuWXBrT084i5xMg8u8eaUyASKYOPye8HLlWaA2sqtOdy7qHHLcoIWGR7QR47HDX2vTSvTxc/iDzh6/IjwRckSUW+ZYAkSKLFBIg8pFF3iRAZIFFeH3ii8ES39U9wpk1WOSZc2DFImUDJbjmx06RFbKnSE0L17xM+8bp98CeQRJc65jzE0XlHXhikAjX+r6SCGcEbBkgsSW1kpvIOsV7AltlUGp1FeHwUnGcJ7KnpEY6SoQzHNM3Ptc05DYeqZQS2dORizGSWJSaSjoinF36v3YXddRa5u5hI8RDR17yL0xFfE/0Si3kVUR1M17uuhHyo5nbykvbpWrG7NXmOdm7fmYC/gLYkza4rXmdyQedbJC9vSIrYn5+aJblnFlpY0Pn4DqvIzLpamqbEy+DeZ3R/wrmKKJtTpXCUrzx7ArZ88ktZG88SzseHGrjGc8TvCV749lPPxr/K8AAiXCCd0V0MMoAAAAASUVORK5CYII=");
+	list-style: none;
+}
+
+.qatext{
+	padding: 10px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.qatext a{
+	color:#3ba600;
+}
+
+summary::-webkit-details-marker {
+  display:none;
+}
+
+.pBtn{
+  max-width: 1008px;
+  text-align: left;
+  margin: 0px auto 50px;
+  padding-left:10px;
+
+}
+
+.pBtn a{
+  display:inline-block; 
+  margin-right: 20px;
+  margin-top: 10px;
+  color: #3ba600;
+  background: url(../../common/images/icn_fw.png) no-repeat 0px 5px;
+  padding-left: 20px;
+
+}
+
+a.anchor {
+    display: block;
+    padding-top: 170px;
+    margin-top: -170px;
+	color: #fff;
+	text-decoration: none;
+}
+
+@media (max-width:800px){
+
+
+.heroAreaIn{
+  width:100%;
+  height:0px;
+}
+
+.qabox .qatitle{
+	list-style: none;
+
+
+}
+	
+.qabox[open] .qatitle{
+	list-style: none;
+	}
+}
+
+
+@media (max-width: 480px) {
+.heroAreaIn{
+ height:0px;
+}
+
+.qabox .qatitle{
+	list-style: none;
+
+
+}
+	
+.qabox[open] .qatitle{
+	list-style: none;
+	}
+	
+.pBtn a{
+   display: block;
+   margin:10px;
+	}
+	
+a.anchor {
+    display: block;
+    padding-top: 10px;
+    margin-top: -10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+}
+
+
+
+
+
+

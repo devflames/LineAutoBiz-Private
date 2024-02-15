@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******************************************
+	SITE:  AutoBiz About
+	FileName: leyout.css
+	LastUpdate: 2016/04/06
+********************************************/
+
+
+.heroAreaIn{
+
+}
+
+.contsDtl .pBox_bg{
+	background-image:url(../images/check_bg.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	margin:0 0 0 -40px;
+	}
+
+.contsDtl .pBox{
+	margin:0 0 0 40px;
+	}
+
+.contsDtl .pBox dd{
+	display:table;
+	padding:0 0 0 30px;
+	font-weight:bold;
+	padding-top:5px;
+	line-height:35px;  
+	}
+
+.contsDtl .pBox dd .box_left{
+	display:table-cell;
+	}
+
+.contsDtl .pBox dd .box_left .boxTtl{
+ 	color:#2774dd;
+	display:block;
+	padding:0 60px 15px 0;
+ 	font-size:26px;
+  font-weight:700;
+  font-family: 'Noto Sans JP', serif;
+	}
+
+.contsDtl .pBox dd .box_left .boxTtlS{
+	color:#2774dd;
+	display:block;
+	padding:0 60px 15px 0;
+ 	font-size:18px;
+  font-weight:500;
+  font-family: 'Noto Sans JP', serif;
+	}
+
+.contsDtl .pBox dd .box_left .boxTxt{
+	display:block;
+	font-size:16px;
+	font-weight:normal;
+	padding:0 60px 0 0;
+  line-height:1.8;
+	}
+	
+.contsDtl .pBox dd .box_left span.boxTxt_btm{
+	padding-top:15px;
+	}
+
+.contsDtl .pBox dd em{
+	display:table-cell;
+	vertical-align:top;
+	}
+ 
+ .contsDtl .pBox dd .box_left .boxTxt a:visited,
+ .contsDtl .pBox dd .box_left .boxTxt a:link{
+   color:#3ba600;
+ }
+
+.contsDtl .pBox a.gBtn{
+	margin-top:15px;
+	}
+ 
+.contsDtl .pBox a.gLine:link,
+.contsDtl .pBox a.gLine:visited{
+  color:#3ba600;
+  text-decoration:underline;
+  font-size:16px;
+  font-weight:normal;
+  display:inline-block;
+   background:url(../../common/images/icn_fw.png) no-repeat right center;
+   line-height:1.3;
+   padding:0 15px 0 0;
+   margin:0;
+}
+
+.contsDtl .pBox a.gLine:hover{
+  color:#333333;
+  text-decoration:none;
+  font-size:16px;
+  font-weight:normal;
+}
+
+
+.section .boxTtl{
+ 	color:#2774dd;
+ 	font-size:26px;
+  font-weight:700;
+  font-family: 'Noto Sans JP', serif;
+  margin-bottom:25px;
+	}
+
+.security .contsIn{
+  display:table;
+}
+
+.security .secL{
+  display:table-cell;
+  float:none;
+  width:250px;
+}
+
+.security .secR{
+  display:table-cell;
+  width:710px;
+  vertical-align:middle; 
+}
+
+.bookLineup{
+  text-align:center;
+}
+
+.bookLineup .boxTtl,
+.bookLineup p{
+text-align:center;
+}
+
+.bookLineup ul{
+  margin:0 auto;
+  display:table;
+}
+
+.bookLineup li{
+  display:table-cell;
+  width:180px;
+}
+
+
+
+@media (max-width:800px){
+.heroAreaIn{
+  width:100%;
+  height:0px;
+}
+
+.contsIn .popTtl_icon{
+  margin-left:3% !important;
+}
+
+.contsDtl .pBox_bg{
+	background-image:none;
+	margin:0px;
+	}
+
+.contsDtl .pBox{
+	width:94%;
+ margin:0 3% 5px 3%;
+	}
+
+.contsDtl .pBox dd{
+ 	font-size:20px;
+	padding-top:5px;
+	line-height:1.6;
+	}
+
+.contsDtl .pBox dd .box_left{
+	width:67%;
+	padding:0 3% 0 0;
+	}
+
+.contsDtl .pBox dd .box_left .boxTtl{
+	padding:0;
+ font-size:24px;
+	}
+ 
+ .contsDtl .pBox dd .box_left .boxTtlS{
+	color:#2774dd;
+	padding:0 0 15px 0;
+ 	font-size:18px;
+	}
+
+.contsDtl .pBox dd .box_left .boxTxt{
+	display:block;
+	line-height:1.6;
+	padding:0 10px 0 0px;
+	}
+
+.contsDtl .pBox dd .box_left span.boxTxt_btm{
+	padding-top:10px;
+	}
+
+.contsDtl .pBox dd em{
+	width:30%;
+	}
+
+.contsDtl .pBox dd .box_only span.boxTxt_btm{
+	padding-top:10px;
+	}
+
+
+.contsDtl .pBox dd em{
+	display:table-cell;
+	vertical-align:top;
+	}
+
+.contsDtl .pBox a.gBtn{
+	margin-top:15px;
+	}
+ 
+.contsDtl .pBox a.gLine:link,
+.contsDtl .pBox a.gLine:visited{
+  font-size:16px;
+   padding:0 15px 0 0;
+   margin:0;
+}
+
+.contsDtl .pBox a.gLine:hover{
+  font-size:16px;
+}
+
+.section .boxTtl{
+ 	color:#2774dd;
+ 	font-size:24px;
+  margin-bottom:25px;
+	}
+
+.security .contsIn{
+  display:table;
+  margin:0 3%;
+  width:94%;
+}
+
+.security .secL{
+  display:table-cell;
+  width:30%;
+}
+
+.security .secR{
+  display:table-cell;
+  width:70%;
+  vertical-align:middle; 
+}
+
+.bookLineup{
+  margin:0 3%;
+  width:94%;
+}
+
+.bookLineup ul{
+  display:table;
+}
+
+.bookLineup li{
+  display:table-cell;
+  width:20%;
+}
+
+}
+
+
+@media (max-width: 560px) {
+.heroAreaIn{
+  min-height:0px;
+}
+
+.contsIn .popTtl_icon{
+  margin:0 5% !important;
+  width:90%;
+}
+
+
+.contsIn .popTtl_icon em{
+  display:table-cell;
+  vertical-align:middle;
+  line-height:1.3;
+  font-weight:normal;
+  color:#ffffff;
+  padding:5px 3% 5px 0;
+}
+
+.contsIn .popTtl_icon span{
+	display:table-cell;
+	vertical-align:middle;
+    padding:5px 0 5px 2%;
+	}
+
+
+.contsDtl .pBox{
+	width:94%;
+  margin:0 3% 5px 3%;
+	}
+
+.contsDtl .pBox dd{
+	display:block;
+	padding:0;
+ 	font-size:20px;
+	padding-top:5px;
+	line-height:1.6;
+	width:100%;
+	}
+
+.contsDtl .pBox dd .box_left{
+	width:100%;
+	padding:0;
+	display:block;
+	}
+
+.contsDtl .pBox dd .box_left .boxTtl{
+	display:block;
+	width:100%;
+ 	padding:0;
+  	font-size:20px;
+	}
+ 
+.contsDtl .pBox dd .box_left .boxTtlS{
+	color:#2774dd;
+	padding:0 0 15px 0;
+ 	font-size:16px;
+	}
+
+.contsDtl .pBox dd .box_left .boxTxt{
+	display:block;
+	line-height:1.6;
+	padding:0 10px 0 0px;
+	width:100%;
+	}
+
+.contsDtl .pBox dd em{
+	display:block;
+	width:80%;
+	margin:10px auto 0;
+	}
+
+.contsDtl .pBox a.gBtn{
+	margin-top:15px;
+	margin-bottom:15px;
+	}
+
+.contsDtl .pBox a.gLine:link,
+.contsDtl .pBox a.gLine:visited{
+  font-size:16px;
+   padding:0 15px 0 0;
+   margin:0;
+}
+
+.contsDtl .pBox a.gLine:hover{
+  font-size:16px;
+}
+
+.section .boxTtl{
+ 	color:#2774dd;
+ 	font-size:24px;
+  margin-bottom:25px;
+	}
+
+.security .contsIn{
+  display:table;
+  margin:0 3%;
+  width:94%;
+}
+
+.security .secL{
+  display:block;
+  width:50%;
+  margin:0 25%;
+}
+
+.security .secR{
+  display:block;
+  width:94%;
+  margin:0 3%;
+  vertical-align:middle; 
+}
+
+.bookLineup{
+  margin:0 3%;
+  width:94%;
+text-align:left;
+}
+
+.bookLineup .boxTtl,
+.bookLineup p{
+text-align:left;
+}
+
+.bookLineup ul{
+  display:block;
+  width:100%;
+}
+
+.bookLineup li{
+  display:block;
+  float:left;
+  width:50%;
+  text-align:center;
+}
+
+
+
+}
+
+
+
+
+
+
